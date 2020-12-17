@@ -20,7 +20,11 @@ console.log(yourSurname);
 surnameList.push(yourSurname);
 console.log(surnameList);
 
-//Ordino i cognomi dell'array in ordine alfabetico
+// Ordino i cognomi dell'array in ordine alfabetico
 surnameList.sort();
 console.log(surnameList);
+
+// Ricavo la posizione "umana" del cognome dell'utente
+var myPosition = surnameList.indexOf(yourSurname);
+console.log(myPosition + 1);
 
